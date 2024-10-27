@@ -1,0 +1,17 @@
+#recuadro {
+    z-index: -1;
+    width: 500px;
+    height: 320px;
+    padding: 110px;
+    position: absolute;
+    top: 1px;
+    margin-top: -30px;
+}
+#recuadro img {
+    width: 230%;
+    height: 170%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 2px;
+    filter: blur(0.50px);
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* Estilos para el menú de navegación */
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Alineación centrada */
+    background-color: transparent; /* Fondo transparente */
+}
+
+header nav ul li {
+    margin: 0 10px; /* Ajusta el margen para acercar los botones */
+}
+
+header nav ul li a {
+    display: flex;
+    align-items: center;  /* Centra verticalmente el texto */
+    justify-content: center; /* Centra horizontalmente el texto */
+    padding: 10px 20px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px; /* Bordes redondeados */
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    width: 150px;
+    height: 18px;
+    margin-top: 20px;
+}
+
+header nav ul li a:hover {
+    background-color: #444; /* Cambia el color al pasar el cursor */
+}

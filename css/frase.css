@@ -1,0 +1,49 @@
+/* Contenedor principal */
+#textlog {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinea todo a la izquierda */
+    justify-content: center;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Arial', sans-serif;
+    text-shadow: 2px 2px 1px black, -2px -1px 20px black;
+    margin-left: 180px; /* Mueve el contenido un poco hacia la derecha para alinearlo mejor */
+}
+
+/* Estilos para el logo */
+#textlog .logo {
+    position: absolute;
+    top: 6%;
+    right: 56%;
+}
+
+#textlog .log {
+    width: 450px; /* Logo más grande */
+    height: auto;
+}
+
+/* Estilos para el texto */
+#textlog .text {
+    position: absolute;
+    right: 62%;
+    top: 45%;
+}
+#textlog .text h1 {
+    font-size: 2em;
+    letter-spacing: 2px;
+    margin: 0; /* Elimina el margen superior e inferior */
+}
+
+#textlog .text p {
+    font-size: 1.2em;
+    margin: 10px 0;
+    line-height: 1.5em; /* Ajuste para separar mejor las líneas */
+    max-width: 250px; /* Limita el ancho del texto para que se divida en más líneas */
+}
+
+#textlog .text h2 {
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
